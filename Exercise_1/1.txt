@@ -1,5 +1,5 @@
 1.	WAP to Check Prime Number using loop?
-//C++ : check if number is prime
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -235,9 +235,14 @@ cout<<"Number is not Palindrome.";
 }  
 ==================================================================================
 13. WAP to Program to Check Prime Number
+
+
+
+
+
 ==================================================================================
-14. WAP to Display Prime Numbers Between two
-Intervals
+14. WAP to Display Prime Numbers Between two  Intervals
+
 #include <iostream>
 using namespace std;
 int main() {
@@ -268,8 +273,7 @@ int main() {
     return 0;
 }
 ==================================================================================
-15. WAP to Check Armstrong Number for 3 digit
-Number
+15. WAP to Check Armstrong Number for 3 digit Number
 
 #include <iostream>
 using namespace std;
@@ -293,8 +297,7 @@ int main() {
     return 0;
 }
 ==================================================================================
-16. WAP to Check Armstrong Number for n digit
-Number
+16. WAP to Check Armstrong Number for n digit Number
 
 #include <cmath>
 #include <iostream>
@@ -323,8 +326,7 @@ int main() {
    return 0;
 }
 ==================================================================================
-17. WAP to Armstrong Numbers Between Two
-Integers
+17. WAP to Armstrong Numbers Between Two Integers
 
 #include <stdio.h>
 #include <math.h>
@@ -354,6 +356,7 @@ int main() {
 }
 ==================================================================================
 18. WAP to Prime Numbers Between Two Integers
+
 #include <iostream>
 using namespace std;
 int checkPrimeNumber(int);
@@ -395,8 +398,7 @@ int checkPrimeNumber(int n) {
    return isPrime;
 }
 ==================================================================================
-19. WAP to Represent a number as Sum of Two Prime
-Numbers
+19. WAP to Represent a number as Sum of Two Prime Numbers
 Input: 34 Output: 34 = 3 + 31, 34 = 5 + 29, 34 = 11 +
 23, 34 = 17 + 17
 
@@ -433,6 +435,7 @@ int checkPrime(int n) {
 }
 ==================================================================================
 20. WAP to Convert Decimal to Octal
+
 #include <iostream>
 using namespace std;
 int decimalToOctal(int decimalnum)
@@ -461,6 +464,7 @@ int main()
 }
 ==================================================================================
 21. WAP to Convert Octal to Decimal
+
 #include <iostream>
 using namespace std;
 int main()
@@ -504,6 +508,7 @@ int convert(long long n) {
 }
 ==================================================================================
 23. WAP to convert decimal number to binary
+
 #include <iostream> 
 using namespace std; 
 void decToBinary(int n) 
@@ -528,8 +533,8 @@ int main()
 }
 ==================================================================================
 24. WAP to Factorial of a Number Using Recursion
-#include<stdio.h>
 
+#include<stdio.h>
 using namespace std;
 long int multiplyNumbers(int n);
 int main() {
@@ -573,8 +578,8 @@ int main()
 }
 ==================================================================================
 26. WAP to Convert Binary to Octal
-#include <stdio.h>
 
+#include <stdio.h>
  using namespace std;
  
 int main()
@@ -656,9 +661,9 @@ void reverseSentence() {
 }
 ==================================================================================
 29. WAP to calculate power using recursion
+
 #include <stdio.h>
 using namespace std;
-
 int power(int n1, int n2);
 int main() {
     int base, a, result;
@@ -681,6 +686,7 @@ int power(int base, int a) {
 30. WAP to Find the largest element in an array
 Input: 89, 34 50, 23, 100, 39,455
 Output: 455
+
 #include <stdio.h>
 using namespace std;
 int main()
